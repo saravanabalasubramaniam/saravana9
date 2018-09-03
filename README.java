@@ -1,14 +1,16 @@
 import java.io.*;
 import java.util.*;
-class natural
+class Main
 {
 public static void main(String[] args)
 {
-int c;
-Scanner a=new Scanner(System.in)
-int b=a.nxtInt();
-for(int i=1;i<=b;i++)
+int c=0,i;
+Scanner a=new Scanner(System.in);
+int b=a.nextInt();
+for(i=b;i>=1;i--)
 {
-c=b+1;
-System.out.println(c);
-}}}
+c=i+c;
+
+}
+    System.out.println(c);
+}}
